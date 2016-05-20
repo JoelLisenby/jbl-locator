@@ -2,7 +2,10 @@
 A simple WordPress Google Maps locator plugin
 
 ## Use
-Simply add the following shortcode to your page or post ```[jbllocator]```
+1. Install plugin.
+2. Go to ```Locator Map``` settings and add your Google Maps API browser key.
+4. Add locations to the configured ```Locations``` post type.
+3. Add the following shortcode to your page or post ```[jbllocator]```
 
 ## Locations
 JBL Locator adds a custom post type to WordPress to provide easy administration of locations.
