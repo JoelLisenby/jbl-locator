@@ -15,7 +15,8 @@ class ShortCode {
 			'pt_slug' => 'location',
 			'pt_name' => 'Locations',
 			'pt_name_singular' => 'Location',
-			'api_key' => ''
+			'api_key' => '',
+			'placeholder' => 'Enter Your Location'
 		);
 		
 		$this->option_name = 'jbllocator_options';
@@ -31,7 +32,7 @@ class ShortCode {
 		ob_start();
 ?>
 <div class="jbllocator">
-<input type="text" id="jbllocatorsearch" name="jbllocatorsearch" value="" placeholder="Enter Your Location" />
+<input type="text" id="jbllocatorsearch" name="jbllocatorsearch" value="" placeholder="<?php echo $this->options['placeholder']; ?>" />
 <div id="jbllocatormap"></div>
 </div><!-- .locator -->
 <?php
