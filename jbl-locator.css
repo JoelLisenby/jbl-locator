@@ -1,0 +1,20 @@
+.jbllocator {
+	text-align: left;
+}
+.jbllocator #jbllocatorsearch {
+	width: 50%;
+	min-width: 250px;
+	margin: 55px 20px 15px;
+	padding: 10px;
+	font-size: 1.8em;
+	border: none;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	border-radius: 7px;
+}
+.jbllocator #jbllocatormap {
+	display: block;
+	height: 600px;
+	max-height: 80%;
+	margin: 0 20px;
+	border-radius: 7px;
+}
