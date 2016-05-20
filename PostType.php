@@ -14,7 +14,8 @@ class PostType {
 			'pt_slug' => 'location',
 			'pt_name' => 'Locations',
 			'pt_name_singular' => 'Location',
-			'api_key' => ''
+			'api_key' => '',
+			'placeholder' => 'Enter Your Location'
 		);
 		
 		$this->option_name = 'jbllocator_options';
