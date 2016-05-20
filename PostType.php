@@ -4,12 +4,13 @@ namespace JBLLocator;
 
 class PostType {
 	
+	public $defaults;
 	public $options;
 	public $option_name;
 
 	public function __construct() {
 		
-		$defaults = array(
+		$this->defaults = array(
 			'pt_slug' => 'location',
 			'pt_name' => 'Locations',
 			'pt_name_singular' => 'Location',

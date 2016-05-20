@@ -5,6 +5,7 @@ use WP_Query;
 
 class ShortCode {
 	
+	public $defaults;
 	public $options;
 	public $option_name;
 	

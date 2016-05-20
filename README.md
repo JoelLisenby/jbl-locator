@@ -10,6 +10,15 @@ A simple WordPress Google Maps locator plugin
 ## Locations
 JBL Locator adds a custom post type to WordPress to provide easy administration of locations.
 
+### Import Locations with CSV
+Use ```Really Simple CSV Importer``` to import your locations from a CSV spreadsheet.
+
+#### Example CSV
+```
+post_type,post_status,post_title,post_author,email,website,address,lat,lng
+location,publish,John Doe,admin,john.doe@gmail.com,google.com,"San Diego, California, USA",32.8248175,-117.375346
+```
+
 ## Customization
 
 ### Customizable Custom Post Type
