@@ -1,7 +1,7 @@
 # JBL Locator
 A simple WordPress Google Maps locator plugin
 
-![alt tag](https://i.imgur.com/wZtghpI.png)
+![screenshot](https://i.imgur.com/wZtghpI.png)
 
 ## Use
 1. Install plugin.
