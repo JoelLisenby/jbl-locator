@@ -15,7 +15,8 @@ class Options {
 			'pt_slug' => 'location',
 			'pt_name' => 'Locations',
 			'pt_name_singular' => 'Location',
-			'api_key' => ''
+			'api_key' => '',
+			'placeholder' => 'Enter Your Location'
 		);
 		
 		$this->option_name = 'jbllocator_options';
@@ -25,7 +26,8 @@ class Options {
 			array( 'name' => 'pt_slug', 'label' => 'Post Type Slug', 'type' => 'text' ),
 			array( 'name' => 'pt_name', 'label' => 'Post Type Name', 'type' => 'text' ),
 			array( 'name' => 'pt_name_singular', 'label' => 'Post Type Singular Name', 'type' => 'text' ),
-			array( 'name' => 'api_key', 'label' => 'Google Maps API Key', 'type' => 'text' )
+			array( 'name' => 'api_key', 'label' => 'Google Maps API Key', 'type' => 'text' ),
+			array( 'name' => 'placeholder', 'label' => 'Search Placeholder', 'type' => 'text' )
 		);
 		
 		add_action( 'admin_menu', array( $this, 'add_admin_page' ) );
@@ -127,6 +129,10 @@ submit_button();
 	
 	public function field_callback_api_key() {
 		$this->field_text('api_key');
+	}
+	
+	public function field_callback_placeholder() {
+		$this->field_text('placeholder');
 	}
 	
 	public function field_text( $id ) {
