@@ -16,5 +16,5 @@ JBL Locator provides a simple options page in wp-admin to customize the name, si
 ```
 .jbllocator {} /* container div */
 .jbllocator #jbllocatorsearch {} /* input search field */
-.jbllocator #jbllocatormap {} /* the map div */
+.jbllocator #jbllocatormap {} /* map div */
 ```
