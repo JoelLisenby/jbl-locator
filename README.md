@@ -1,4 +1,4 @@
-# jbl-locator
+# JBL Locator
 A simple WordPress Google Maps locator plugin
 
 ## Use
